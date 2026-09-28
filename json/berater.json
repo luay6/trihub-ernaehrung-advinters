@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "name": "Relindis Agethen ",
+        "role": "TRIATHLET UND ERNÄHRUNGSBERATERIN",
+        "image": "img/relindis_agethen.png",
+        "bioTitle": "Kurzbiografie",
+        "bioText": "Relindis Agethen, genannt Lilli, ist seit 16 Jahren im Triathlon aktiv und bringt starke sportliche Erfolge mit: Vize-Europameisterin, Deutsche Meisterin und mehrfache Baden-Württembergische Meisterin. Als zertifizierte Ernährungsberaterin für Sportler B-Lizenz ergänzt sie das Team um Leistungsentwicklung und Ernährungswissen.",
+        "zertifikate": [
+            "Zertifizierter Triathlon-Trainer",
+            "Ernährungscoach B-Lizenz"
+        ],
+        "links": [
+            {
+                "text": "Instagram Profil",
+                "url": "https://instagram.com/lili"
+            },
+            {
+                "text": "Trainingsplan buchen",
+                "url": "https://tri-hub.de/booking"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Relindis Agethen ",
+        "role": "TRIATHLET UND ERNÄHRUNGSBERATERIN",
+        "image": "img/relindis_agethen_1.jpg",
+        "bioTitle": "Kurzbiografie",
+        "bioText": "Relindis Agethen, genannt Lilli, ist seit 16 Jahren im Triathlon aktiv und bringt starke sportliche Erfolge mit: Vize-Europameisterin, Deutsche Meisterin und mehrfache Baden-Württembergische Meisterin. Als zertifizierte Ernährungsberaterin für Sportler B-Lizenz ergänzt sie das Team um Leistungsentwicklung und Ernährungswissen.",
+        "zertifikate": [
+            "Zertifizierter Triathlon-Trainer",
+            "Ernährungscoach B-Lizenz"
+        ],
+        "links": [
+            {
+                "text": "Instagram Profil",
+                "url": "https://instagram.com/lili"
+            },
+            {
+                "text": "Trainingsplan buchen",
+                "url": "https://tri-hub.de/booking"
+            }
+        ]
+    }
+]
