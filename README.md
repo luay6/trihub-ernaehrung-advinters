@@ -1,1 +1,1 @@
-# -trihub-ernaehrung-advinters
+# trihub-ernaehrung-advinters
