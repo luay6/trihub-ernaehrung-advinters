@@ -1,29 +1,60 @@
 <!DOCTYPE html>
 <html lang="de">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ernährungsberater</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PVS – Provisionsbearbeitungssystem · Anmeldung (Demo)">
+  <title>PVS · Anmeldung – INTER Versicherungsgruppe</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
+<body class="login-page">
 
-<body>
-    <!-- Leistungsübersicht Vincent-->
-    <section>
+  <main class="login-wrap">
+    <div class="login-card">
 
-    </section>
-    <!-- Berater & Qualifikationen Ahmad -->
-    <section>
+      <!-- Markenbereich: Logo-Platzhalter (Markenfreigabe ausstehend) -->
+      <div class="brand">
+        <span class="mark" aria-hidden="true">i</span>
+        <div>
+          <b>INTER</b>
+          <small>Versicherungsgruppe · PVS</small>
+        </div>
+      </div>
 
-    </section>
-    <!-- Info über Beratung Dennis-->
-    <section>
+      <h1>Anmeldung</h1>
+      <p class="login-sub">Provisionsbearbeitungssystem für Vermittler &amp; Sachbearbeitung</p>
 
-    </section>
-    <!-- Produktsübersicht Shahnam -->
-    <section>
+      <!-- Demo-Login: leitet mit beliebigen Daten zum Dashboard weiter -->
+      <form id="login-form">
+        <label class="field">
+          Benutzername / Mitarbeiter-ID
+          <input type="text" name="user" placeholder="z. B. s.beispiel" required autofocus autocomplete="username">
+        </label>
 
-    </section>
+        <label class="field">
+          Passwort
+          <input type="password" name="pass" placeholder="••••••••" required autocomplete="current-password">
+        </label>
+
+        <div class="login-row">
+          <label class="check"><input type="checkbox" name="remember"> Angemeldet bleiben</label>
+          <!-- TODO: Passwort-Reset folgt mit den Anforderungen (nicht im Demo-Umfang) -->
+          <button type="button" class="link-btn" id="passwordHelpBtn">Passwort vergessen?</button>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block">Anmelden</button>
+      </form>
+
+      <p class="demo-hint">
+        Demo: Mit beliebigem Benutzernamen und Passwort anmelden – es wird direkt zur Dashboard-Vorschau weitergeleitet.
+      </p>
+    </div>
+
+    <footer class="login-footer">
+      © 2026 INTER Versicherungsgruppe, Mannheim · Demo durch Team advinters · Stand 15.10.2026
+    </footer>
+  </main>
+
+  <script src="js/main.js"></script>
 </body>
-
 </html>
